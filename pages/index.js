@@ -9,14 +9,15 @@ function Home() {
     <Container className="p-0" fluid>
       <Head>
         <title>Sagar Betkar</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, 
-          shrink-to-fit=no"
+          name="keywords"
+          content="sagar betkar, sagarbetkar, sagar betkar resume, sagar betkar details, sagar betkar history, sagar betkar portfolio"
         />
-        <meta name="description" content="JavaScript wizard, chaotic good" />
-        <meta name="keyword" content="sagarbetkar, sagar, betkar, portfolio, javascript, developer"></meta>
+        <meta name="description" content="Sagar Betkar portfolio website build with react." />
+        <meta name="revised" content="Sagar Betkar, 13/11/2021" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
