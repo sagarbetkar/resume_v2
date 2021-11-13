@@ -31,7 +31,7 @@ const expData = [
 function Experience() {
     return (
         <Container className="py-4" id="experience">
-            <h2 className="mb-4">Experience</h2>
+            <h3 className="mb-4">Experience</h3>
             {expData.map((e, index) => (
                 <Card className="mb-4" key={index}>
                     <Card.Body>
