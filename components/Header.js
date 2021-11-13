@@ -13,6 +13,7 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
+                            <Nav.Link href="#experience">Experience</Nav.Link>
                             <Nav.Link href="/Sagar-Betkar-Resume.pdf" target="_blank">Resumé</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

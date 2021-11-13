@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Container } from 'react-bootstrap'
+import Experience from '../components/Experience'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Profile from '../components/Profile'
@@ -22,6 +23,7 @@ function Home() {
       </Head>
       <Header />
       <Profile />
+      <Experience />
       <Footer />
     </Container>
   )
