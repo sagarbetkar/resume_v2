@@ -4,9 +4,7 @@ function Footer() {
     return (
         <div>
              <footer className="footer">
-                <a href="#home" >
-                Created by Sagar Betkar
-                </a>
+                <span>Created by Sagar Betkar</span>
             </footer>
         </div>
     )

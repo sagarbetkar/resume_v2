@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Image, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Image, Nav, Navbar } from 'react-bootstrap'
+
 
 function Header() {
     return (
@@ -12,7 +13,7 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                           
+                            <Nav.Link href="/Sagar-Betkar-Resume.pdf" target="_blank">Resumé</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
