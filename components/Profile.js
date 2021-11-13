@@ -3,11 +3,11 @@ import { Container, Image, Nav } from 'react-bootstrap'
 
 function Profile() {
     return (
-        <Container id="home" style={{height: "calc(100vh - 190px)"}}>
-            <div className="text-center my-4">
+        <Container id="home" style={{ backgroundColor: "#141414 !important"}} fluid>
+            <div className="text-center py-5">
                 <Image className="profile-pic img-fluid" src="/profilePic.jpg" alt="Sagar Betkar" roundedCircle />
-                <h1>Sagar Betkar</h1>
-                <h3>Full Stack JavaScript Developer</h3>
+                <h1 style={{color: "#f2f2f2"}}>Sagar Betkar</h1>
+                <h3 style={{color: "#f2f2f2"}}>Full Stack JavaScript Developer</h3>
                 <Nav className="justify-content-center">
                   <Nav.Link href="https://www.linkedin.com/in/sagarbetkar/" target="_blank">
                     <i className="bi bi-linkedin fs-1 social-link"></i>
