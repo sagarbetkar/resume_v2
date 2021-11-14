@@ -30,7 +30,7 @@ export const projectData = [
         title: "Personal Portfolio Project",
         image: "/Sagar-Betkar-portfolio-img.png",
         githubRepo: "https://github.com/sagarbetkar/resume_v2",
-        liveUrl: "https://sagarbetkar.netlify.app/",
+        liveUrl: "",
         description: "My Portfolio Website where I showcase some personal projects, work experiences & about me. Used Next.js & React-Bootstrap."
     },
     {

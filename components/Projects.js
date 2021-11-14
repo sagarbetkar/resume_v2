@@ -18,7 +18,7 @@ function Projects() {
                                 </Card.Body>
                                 <Card.Footer>
                                     <Card.Link href={p.githubRepo}  target="_blank">GitHub Repo</Card.Link>
-                                    <Card.Link href={p.liveUrl}  target="_blank">Live Demo</Card.Link>
+                                    {p.liveUrl && <Card.Link href={p.liveUrl}  target="_blank">Live Demo</Card.Link>}
                                 </Card.Footer>
                             </Card>
                         </Col>
