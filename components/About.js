@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Image, Row } from 'react-bootstrap'
 
 function About() {
     return (
@@ -9,38 +9,35 @@ function About() {
                     <Col md={6}>
                         <h3>About</h3>
                         <p>
-                        I currently am working as full stack developer at Knoxpo. I have 4 years of experience in building responsive web applications & products. I specialize in JavaScript, React, Angular, Node.js, Express & MongoDB.
+                        I currently am working as a full-stack developer at Knoxpo. I&apos;ve spent four years developing responsive web applications and products. I specialize in JavaScript, React, Angular, Node.js, Express & MongoDB. 
                         <br /><br />
-                        Most of my learning has been through building and deploying web apps, pushing to GitHub and getting code tips & reviews from senior developers & colleagues. I love the daily challenges of web development: writing quality code, learning new technologies, and solving complex problems. 
+                        Building and deploying web apps, pushing to GitHub, and obtaining code recommendations and evaluations from senior developers and coworkers have been the mainstays of my learning. I enjoy the daily challenges of web development, such as generating high-quality code, learning new technologies, and resolving complicated issues.  
                         <br /><br />
-                        Outside of work I loved cycling & watching animes. Currently I am not accepting freelance work, but I&apos;d love to get coffee and get to know you, so don’t hesitate to get in touch.
+                        Outside of work, I enjoyed cycling and watching animated series. I&apos;m not currently accepting freelance work, but I&apos;d love to meet for coffee and get to know you, so please don&apos;t hesitate to contact me.
                         </p>
                     </Col>
                     <Col md={{ span: 4, offset: 1 }}>
-                        <h3>Skills</h3>
-                        <ul>
-                            <li>Primary Experience:</li>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>React</li>
-                                <li>Angular</li>
-                                <li>Node.js</li>
-                                <li>Express.js</li>
-                                <li>MongoDB</li>
-                                <li>RESTful APIs</li>
-                                <li>Git/GitHub</li>
-                            </ul>
-                            <br />
-                            <li>Secondary Experience:</li>
-                            <ul>
-                                <li>Typescript</li>
-                                <li>GraphQL</li>
-                                <li>AWS</li>
-                                <li>Docker</li>
-                                <li>Google Cloud Platform</li>
-                                <li>PHP</li>
-                            </ul>
-                        </ul>
+                        <h3>Tech Skills</h3>
+                        <div>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="70" height="70"/ >
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" alt="angular" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="70" height="70" />
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" alt="mysql" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg" alt="graphql" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/socketio/socketio-original.svg" alt="socketio" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-plain.svg" alt="redis" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="aws" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-plain.svg" alt="googlecloud" width="70" height="70"/>
+                            <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" alt="docker" width="70" height="70"/>
+                        </div>
                     </Col>
                 </Row>
             </Container>
