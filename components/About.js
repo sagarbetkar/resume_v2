@@ -17,7 +17,7 @@ function About() {
                         </p>
                     </Col>
                     <Col md={{ span: 4, offset: 1 }}>
-                        <h3>Tech Skills</h3>
+                        <h3>Skills</h3>
                         <div>
                             <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="70" height="70"/>
                             <Image className="m-1" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="70" height="70"/>

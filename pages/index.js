@@ -12,15 +12,18 @@ function Home() {
     <Container className="p-0" fluid>
       <Head>
         <title>Sagar Betkar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+        <meta name="author" content="Sagar Betkar" />
         <meta
           name="keywords"
-          content="sagar betkar, sagarbetkar, sagar betkar resume, sagar betkar details, sagar betkar history, sagar betkar portfolio"
+          content="sagar, sagar betkar, sagarbetkar, sagar betkar resume, sagar betkar details, sagar betkar experiences, sagar betkar portfolio, sagar betkar projects, sagar betkar skills"
         />
-        <meta name="description" content="Sagar Betkar portfolio website build with react." />
-        <meta name="revised" content="Sagar Betkar, 13/11/2021" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sagar Betkar portfolio website which contains his information, contact details, skills, experiences, projects & resume. The website is built using Next.js" />
+        <meta property="og:image" content="/logo.png" />
+        <meta property="og:description" content="Sagar Betkar portfolio website which contains his information, contact details, skills, experiences, projects & resume. The website is built using Next.js" />
+        <meta property="og:title" content="Sagar Betkar" />
+        <meta name="twitter:title" content="Sagar" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
