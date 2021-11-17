@@ -19,7 +19,7 @@ function Home() {
           name="keywords"
           content="sagar, sagar betkar, sagarbetkar, sagar betkar resume, sagar betkar details, sagar betkar experiences, sagar betkar portfolio, sagar betkar projects, sagar betkar skills"
         />
-        <meta name="description" content="Sagar Betkar portfolio website which contains his information, contact details, skills, experiences, projects & resume. The website is built using Next.js" />
+        <meta name="description" content="Sagar Betkar is a full-stack developer. This portfolio website contains his information, contact details, skills, experiences, projects & resume. The website is built using Next.js" />
         <meta property="og:image" content="/logo.png" />
         <meta property="og:description" content="Sagar Betkar portfolio website which contains his information, contact details, skills, experiences, projects & resume. The website is built using Next.js" />
         <meta property="og:title" content="Sagar Betkar" />
