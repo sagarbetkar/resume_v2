@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
+import { skills } from '../data'
 
 function About() {
     return (
@@ -19,6 +20,14 @@ function About() {
                     <Col md={{ span: 5, offset: 1 }}>
                         <h3>Skills</h3>
                         <div>
+                            {skills.map((s, i) => (
+                                <Row className="mb-2" key={i}>
+                                    <Col xs={3} style={{textTransform: "capitalize"}}><b>{s.key}</b></Col>
+                                    <Col xs={9}>{s.value}</Col>
+                                </Row>
+                            ))}
+                        </div>
+                        {/* <div>
                             <Image className="p-2" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="75" height="75"/>
                             <Image className="p-2" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="75" height="75"/>
                             <Image className="p-2" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="75" height="75"/>
@@ -37,7 +46,7 @@ function About() {
                             <Image className="p-2" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="aws" width="75" height="75"/>
                             <Image className="p-2" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-plain.svg" alt="googlecloud" width="75" height="75"/>
                             <Image className="p-2" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" alt="docker" width="75" height="75"/>
-                        </div>
+                        </div> */}
                     </Col>
                 </Row>
             </Container>
