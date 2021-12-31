@@ -1,18 +1,18 @@
 export const expData = [
     {
-        jobTitle: "Full Stack JavaScript Developer",
+        jobTitle: "Full Stack Developer",
         companyName: "Knoxpo",
         Duration: "March 2019 - Present",
         workDescription: [
             "Developed various responsive web applications, micro frontends, REST & GraphQL APIs & Integrated various apis. Eg:- Twilio, Stripe, Redis, RabbitMQ etc.",
             "Experience in an agile environment (Scrum, Kanban). Close Collaboration with designers, product managers, VPs & clients for better understanding.",
-            "Experience is PRs reviews, pair programming, working under pressure & tight timelines.",
+            "Experience in PRs reviews, pair programming, working under pressure & tight timelines.",
             "Technologies used so far:- React, Typescript, GraphQL, Node.js, Express, MongoDB, Mongoose, Socket.io, Ant design, Angular, Next.js etc.",
             "Deployed web application using Docker on Google Cloud Platform."
         ]
     },
     {
-        jobTitle: "Full Stack JavaScript Developer",
+        jobTitle: "Full Stack Developer",
         companyName: "Freelance",
         Duration: "August 2018 - January 2019",
         workDescription: [
