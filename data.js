@@ -84,7 +84,7 @@ export const projectData = [
         image: "/whack-a-mole.png",
         githubRepo: "https://github.com/sagarbetkar/javascript30/tree/master/Whack%20A%20Mole",
         liveUrl: "https://sb-whack-a-mole.netlify.app/",
-        description: "Whack A Mole! build using JavaScript."
+        description: "Whack A Mole! game build using JavaScript."
     },
     {
         title: "Drum Kit",
@@ -92,6 +92,13 @@ export const projectData = [
         githubRepo: "https://github.com/sagarbetkar/javascript30/tree/master/Javascript%20Drum%20Kit",
         liveUrl: "https://sb-drum-kit.netlify.app/",
         description: "Drum Kit build using JavaScript."
+    },
+    {
+        title: "The Voiceinator",
+        image: "/voiceinator-img.png",
+        githubRepo: "https://github.com/sagarbetkar/javascript30/tree/master/Video%20Speed%20Controller",
+        liveUrl: "https://sb-voiceinator.netlify.app/",
+        description: "The Voiceinator build using JavaScript."
     }
 ]
 
