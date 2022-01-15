@@ -4,11 +4,12 @@ export const expData = [
         companyName: "Knoxpo",
         Duration: "March 2019 - Present",
         workDescription: [
-            "Developed various responsive web applications, micro frontends, REST & GraphQL APIs & Integrated various apis. Eg:- Twilio, Stripe, Redis, RabbitMQ etc.",
-            "Experience in an agile environment (Scrum, Kanban). Close Collaboration with designers, product managers, VPs & clients for better understanding.",
-            "Experience in PRs reviews, pair programming, working under pressure & tight timelines.",
-            "Technologies used so far:- React, Typescript, GraphQL, Node.js, Express, MongoDB, Mongoose, Socket.io, Ant design, Angular, Next.js etc.",
-            "Deployed web application using Docker on Google Cloud Platform."
+            "Build features, microservices and applications with a mobile responsive design.",
+            "Converted wireframes and visual designs into working front-end code.",
+            "Experience in an agile environment (Scrum, Kanban), PRs reviews, pair programming, working under pressure & tight timelines.",
+            "Deployed web application using Docker(Kubernetes) on Google Cloud Platform.",
+            "Experience with source control tools – Git, Github, Gitlab.",
+            "Technologies used so far:- React, Redux, Mobx, Typescript, GraphQL, Node.js, Express, Angular, MongoDB, Mongoose, Socket.io, Ant design, Next.js etc."
         ]
     },
     {
@@ -16,8 +17,10 @@ export const expData = [
         companyName: "Freelance",
         Duration: "August 2018 - January 2019",
         workDescription: [
-            "Developed Web Applications & APIs using technologies such as HTML5, SCSS, Angular, Typescript, Node.js, MongoDB, Express (MEAN Stack), Github & deployed on AWS.", 
-            "Close collaboration with clients for a better workflow."
+            "Designing and developing APIs.",
+            "Technologies such as HTML5, SCSS, Angular, Typescript, Node.js, MongoDB, Express (MEAN Stack) & deployed on AWS.",
+            "Close collaboration with clients for a better workflow. "
+
         ]
     },
     {
@@ -25,9 +28,14 @@ export const expData = [
         companyName: "3Y Ventures LLP (tag8)",
         Duration: "January 2018 - August 2018",
         workDescription: [
-            "Developed an in-house B2B web application for placing an order of companies products & generating invoices.",
-            "Used technologies such as AngularJs, PHP (Slim framework), SQL, Github & deployed on AWS.",
-            "Worked on restructuring the official website and other in-house projects."
+            "Manage the IT development projects (Website, mobile app and web services) undertaken with IT partners.",
+            "Maintain Server-side requirements & deployed web applications on AWS.",
+            "Support internal development and enhancements project.",
+            "Set up client jobs and support clients on project execution.",
+            "Handle client's queries related to tag8 systems.",
+            "Troubleshoot IT issues and resolve them.",
+            "Support new IT/product development projects.",
+            "Used technologies such as AngularJs, Bootstrap, PHP (Slim framework), SQL."
         ]
     },
     {
@@ -35,8 +43,9 @@ export const expData = [
         companyName: "STALKERSCODE PVT. LTD.",
         Duration: "May 2017 - December 2017",
         workDescription: [
-            "Developed responsive websites using the latest technologies such as HTML5, CSS3, Bootstrap & PHP.",
-            "Interacting with clients and designers to deliver the best web experiences."
+            "Created responsive web pages as per visual designs by designers.",
+            "Gained hands-on expertise in Bootstrap.",
+            "Developed responsive websites using the technologies such as HTML5, CSS3, JavaScript, Bootstrap & PHP." 
         ]
     }   
 ]
