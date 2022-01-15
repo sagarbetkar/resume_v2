@@ -77,7 +77,21 @@ export const projectData = [
         image: "/Pig-Game-img.png",
         githubRepo: "https://github.com/sagarbetkar/pig-game",
         liveUrl: "https://sagarbetkar.github.io/pig-game/",
-        description: "Pig is a simple dice game build using JavaScript."
+        description: "Pig game is a simple dice game build using JavaScript."
+    },
+    {
+        title: "Whack A Mole!",
+        image: "/whack-a-mole.png",
+        githubRepo: "https://github.com/sagarbetkar/javascript30/tree/master/Whack%20A%20Mole",
+        liveUrl: "https://sb-whack-a-mole.netlify.app/",
+        description: "Whack A Mole! build using JavaScript."
+    },
+    {
+        title: "Drum Kit",
+        image: "/drum-kit-img.png",
+        githubRepo: "https://github.com/sagarbetkar/javascript30/tree/master/Javascript%20Drum%20Kit",
+        liveUrl: "https://sb-drum-kit.netlify.app/",
+        description: "Drum Kit build using JavaScript."
     }
 ]
 
