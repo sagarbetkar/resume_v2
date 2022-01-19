@@ -4,7 +4,7 @@ export const expData = [
         companyName: "Knoxpo",
         Duration: "March 2019 - Present",
         workDescription: [
-            "Build features, microservices and applications with a mobile responsive design.",
+            "Build features, microservices and applications with a responsive web design.",
             "Converted wireframes and visual designs into working front-end code.",
             "Experience in an agile environment (Scrum, Kanban), PRs reviews, pair programming, working under pressure & tight timelines.",
             "Deployed web application using Docker(Kubernetes) on Google Cloud Platform.",
