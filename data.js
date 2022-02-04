@@ -109,7 +109,7 @@ export const skills = [
     },
     {
         key: "libraries and databases",
-        value: "React, Redux, Mobx, Socket.io, Node.js, Ant design, MongoDB, MySQL"
+        value: "React, Mobx, Socket.io, Node.js, Ant design, MongoDB, MySQL, Redis"
     },
     {
         key: "frameworks",
@@ -117,6 +117,6 @@ export const skills = [
     },
     {
         key: "project skills",
-        value: "Agile Methodology, Mentoring, Communication, Pair Programming, Time Management, Team player"
+        value: "Agile Methodology, Communication, Pair Programming, Time Management, Team player, Functional Programming"
     }
 ]

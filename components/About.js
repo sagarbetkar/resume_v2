@@ -10,7 +10,7 @@ function About() {
                     <Col md={6}>
                         <h3>About</h3>
                         <p>
-                        I currently am working as a full-stack developer at Knoxpo. I&apos;ve spent four years developing responsive web applications and products. I specialize in JavaScript, React, Angular, Node.js, Express & MongoDB. 
+                        I am a full-stack developer. I&apos;ve spent four years developing responsive web applications and products. I specialize in JavaScript, React, Angular, Node.js, Express & MongoDB. 
                         <br /><br />
                         Building and deploying web apps, pushing to GitHub, and obtaining code recommendations and evaluations from senior developers and coworkers have been the mainstays of my learning. I enjoy the daily challenges of web development, such as generating high-quality code, learning new technologies, and resolving complicated issues.  
                         <br /><br />

@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Profile from '../components/Profile'
 import Projects from '../components/Projects'
+import Blogs from '../components/Blogs'
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
         <meta name="author" content="Sagar Betkar" />
         <meta
           name="keywords"
-          content="sagar, sagar betkar, sagarbetkar, sagar betkar resume, sagar betkar details, sagar betkar experiences, sagar betkar portfolio, sagar betkar projects, sagar betkar skills"
+          content="sagar, betkar, sagar betkar, sagarbetkar, sagar betkar resume, sagar betkar details, sagar betkar experiences, sagar betkar portfolio, sagar betkar projects, sagar betkar skills"
         />
         <meta name="description" content="Sagar Betkar is a full-stack developer. This portfolio website contains his information, contact details, skills, experiences, projects & resume. The website is built using Next.js" />
         <meta property="og:image" content="/logo.png" />
@@ -30,6 +31,7 @@ function Home() {
       <Profile />
       <About />
       <Experience />
+      <Blogs />
       <Projects />
       <Footer />
     </Container>
