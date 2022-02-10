@@ -2,7 +2,7 @@ export const expData = [
     {
         jobTitle: "Full Stack Developer",
         companyName: "Knoxpo",
-        Duration: "March 2019 - Present",
+        Duration: "March 2019 - February 2022",
         workDescription: [
             "Build features, microservices and web applications (client-side & server-side) with a responsive web design.",
             "Converted wireframes and visual designs into working front-end code.",
@@ -52,13 +52,6 @@ export const expData = [
 ]
 
 export const projectData = [
-    {
-        title: "Personal Portfolio Project",
-        image: "/Sagar-Betkar-portfolio-img.png",
-        githubRepo: "https://github.com/sagarbetkar/resume_v2",
-        liveUrl: "",
-        description: "My Portfolio Website where I showcase some personal projects, work experiences & about me. Used Next.js & React-Bootstrap."
-    },
     {
         title: "Google Tasks Clone",
         image: "/GoogleTasksClone-img.png",
@@ -118,6 +111,6 @@ export const skills = [
     },
     {
         key: "project skills",
-        value: "Agile Methodology, Communication, Pair Programming, Time Management, Team player, Functional Programming"
+        value: "Agile Methodology, Communication, Pair Programming, Time Management, Team player, Functional Programming, Object-oriented Programming"
     }
 ]
